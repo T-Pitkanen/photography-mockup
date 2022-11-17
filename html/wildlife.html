@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/796ad193be.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/wildlife.css" />
+		<title>JR Photography - Wildlife</title>
+	</head>
+	<body>
+		<header class="web-header">
+			<div class="header-container">
+				<div class="some-container">
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-regular fa-envelope"></i>
+					<i class="fa-brands fa-facebook-f"></i>
+					<i class="fa-brands fa-linkedin-in"></i>
+				</div>
+				<div class="logo-container">
+					<a href="../index.html"
+						><img class="logo" src="../img/jr-logo.png" alt=""
+					/></a>
+				</div>
+
+				<div class="contact-container">
+					<a href="../html/contact.html">CONTACT</a>
+				</div>
+			</div>
+
+			<div class="nav">
+				<div class="nav-container">
+					<a href="../index.html">HOME</a>
+					<a href="../html/wildlife.html">WILDLIFE</a>
+					<a href="../html/details.html">DETAILS</a>
+					<a href="../html/landscapes.html">LANDSCAPES</a>
+				</div>
+			</div>
+		</header>
+
+		<!-- MOBILE NAV -->
+
+		<header id="mobile" class="header-mobile">
+			<a href="../index.html">
+				<img class="logo" src="../img/jr-logo.png" alt="logo" />
+			</a>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+					>&times;</a
+				>
+				<a href="../index.html">Home</a>
+				<a href="../html/wildlife.html">Wildlife</a>
+				<a href="../html/details.html">Details</a>
+				<a href="../html/landscapes.html">Landscapes</a>
+				<a href="../html/contact.html">Contact</a>
+			</div>
+
+			<span onclick="openNav()"><i class="fa-sharp fa-solid fa-bars"></i></span>
+		</header>
+
+		<!-- MOBILE GALLERY -->
+		<div class="mobile">
+			<div class="wildlife-intro">
+				<div class="wildlife-container">
+					<h1>Wildlife</h1>
+					<p>Various pictures of different wildlife animals</p>
+				</div>
+			</div>
+
+			<div class="slideshow-container">
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 10</div>
+					<img src="../img/wildlife-1.jpg" style="width: 100%" />
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 10</div>
+					<img src="../img/wildlife-2.jpg" style="width: 100%" />
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 10</div>
+					<img src="../img/wildlife-3.jpg" style="width: 100%" />
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">4 / 10</div>
+					<img src="../img/wildlife-4.jpg" style="width: 100%" />
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">5 / 10</div>
+					<img src="../img/wildlife-5.jpg" style="width: 100%" />
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">6 / 10</div>
+					<img src="../img/wildlife-6.jpg" style="width: 100%" />
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">7 / 10</div>
+					<img src="../img/wildlife-7.jpg" style="width: 100%" />
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">8 / 10</div>
+					<img src="../img/wildlife-12.jpg" style="width: 100%" />
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">9 / 10</div>
+					<img src="../img/wildlife-14.jpg" style="width: 100%" />
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">10 / 10</div>
+					<img src="../img/wildlife-13.jpg" style="width: 100%" />
+				</div>
+
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br />
+
+			<!-- The dots/circles -->
+			<div style="text-align: center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+				<span class="dot" onclick="currentSlide(6)"></span>
+				<span class="dot" onclick="currentSlide(7)"></span>
+				<span class="dot" onclick="currentSlide(8)"></span>
+				<span class="dot" onclick="currentSlide(9)"></span>
+				<span class="dot" onclick="currentSlide(10)"></span>
+			</div>
+		</div>
+
+		<main>
+			<div class="wildlife-intro">
+				<div class="wildlife-container">
+					<h1>Wildlife</h1>
+					<p>Various pictures of different wildlife animals</p>
+				</div>
+			</div>
+
+			<!-- WEB GALLERY -->
+			<div class="gallery">
+				<div class="gallery-container">
+					<div class="img-container">
+						<img src="../img/wildlife-1.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-2.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-3.jpg" />
+					</div>
+
+					<div class="img-container">
+						<img src="../img/wildlife-4.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-5.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-10.jpg" />
+					</div>
+
+					<div class="img-container">
+						<img src="../img/wildlife-extra.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-9.jpg" />
+					</div>
+
+					<div class="img-container">
+						<img src="../img/wildlife-8.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-7.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-6.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-11.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-12.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-13.jpg" />
+					</div>
+					<div class="img-container">
+						<img src="../img/wildlife-14.jpg" />
+					</div>
+					<div class="img-container extra">
+						<img src="../img/wildlife-15.jpg" />
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footer-space"></div>
+			<div class="footer-container">
+				<div class="footer-div1"></div>
+				<div class="footer-contacts">
+					<div class="ig-div">
+						<p>INSTAGRAM</p>
+						<a href="https://instagram.com">@jukkarisikko</a>
+					</div>
+					<div class="email-div">
+						<p>CONTACT</p>
+						<a href="mailto:jukka.risikko@gmail.com">jukka.risikko@gmail.com</a>
+					</div>
+				</div>
+				<div class="footer-div3"></div>
+			</div>
+		</footer>
+		<script>
+			function openNav() {
+				document.querySelector('#mySidenav').style.width = '250px';
+				document.querySelector('#main').style.marginLeft = '250px';
+			}
+
+			function closeNav() {
+				document.querySelector('#mySidenav').style.width = '0';
+				document.querySelector('#main').style.marginLeft = '0';
+			}
+
+			let slideIndex = 1;
+			showSlides(slideIndex);
+
+			// Next/previous controls
+			function plusSlides(n) {
+				showSlides((slideIndex += n));
+			}
+
+			// Thumbnail image controls
+			function currentSlide(n) {
+				showSlides((slideIndex = n));
+			}
+
+			function showSlides(n) {
+				let i;
+				let slides = document.querySelector('.mySlides');
+				let dots = document.querySelector('.dot');
+				if (n > slides.length) {
+					slideIndex = 1;
+				}
+				if (n < 1) {
+					slideIndex = slides.length;
+				}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = 'none';
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(' active', '');
+				}
+				slides[slideIndex - 1].style.display = 'block';
+				dots[slideIndex - 1].className += ' active';
+			}
+		</script>
+	</body>
+</html>

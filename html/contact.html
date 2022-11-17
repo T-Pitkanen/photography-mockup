@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/796ad193be.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/contact.css" />
+		<title>JR Photography - Contact</title>
+	</head>
+	<body>
+		<!-- WEB NAV -->
+		<header class="web-header">
+			<div class="header-container">
+				<div class="some-container">
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-regular fa-envelope"></i>
+					<i class="fa-brands fa-facebook-f"></i>
+					<i class="fa-brands fa-linkedin-in"></i>
+				</div>
+				<div class="logo-container">
+					<a href="../index.html"
+						><img class="logo" src="../img/jr-logo.png" alt=""
+					/></a>
+				</div>
+
+				<div class="contact-container">
+					<a href="../html/contact.html">CONTACT</a>
+				</div>
+			</div>
+
+			<div class="nav">
+				<div class="nav-container">
+					<a href="../index.html">HOME</a>
+					<a href="../html/wildlife.html">WILDLIFE</a>
+					<a href="../html/details.html">DETAILS</a>
+					<a href="../html/landscapes.html">LANDSCAPES</a>
+				</div>
+			</div>
+		</header>
+
+		<!-- MOBILE NAV -->
+
+		<header id="mobile" class="header-mobile">
+			<a href="../index.html">
+				<img class="logo" src="../img/jr-logo.png" alt="logo" />
+			</a>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+					>&times;</a
+				>
+				<a href="../index.html">Home</a>
+				<a href="wildlife.html">Wildlife</a>
+				<a href="details.html">Details</a>
+				<a href="landscapes.html">Landscapes</a>
+				<a href="contact.html">Contact</a>
+			</div>
+
+			<span onclick="openNav()"><i class="fa-sharp fa-solid fa-bars"></i></span>
+		</header>
+
+		<main>
+			<div class="contact">
+				<div class="form-container">
+					<h2>Contact</h2>
+					<form class="contact-form" method="post" action="#">
+						<div class="container-form-group">
+							<label for="Name" class="form-label">Your name</label>
+							<div class="form-input">
+								<input
+									type="text"
+									id="Name"
+									name="Name"
+									class="form-control"
+									required
+								/>
+							</div>
+						</div>
+
+						<div class="container-form-group">
+							<label for="Email" class="form-label">Your email </label>
+							<div class="form-input">
+								<input
+									type="email"
+									id="Email"
+									name="Email"
+									class="form-control"
+									required
+								/>
+							</div>
+						</div>
+
+						<div class="container-form-group">
+							<label for="Message" class="form-label">Your message</label>
+							<div class="form-input">
+								<textarea
+									id="Message"
+									name="Message"
+									class="form-control"
+									rows="6"
+									maxlength="3000"
+									required
+								></textarea>
+							</div>
+						</div>
+
+						<div class="container-form-group">
+							<button
+								type="submit"
+								id="form-button"
+								class="form-btn form-btn-primary form-btn-lg form-btn-block"
+							>
+								Send
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footer-space"></div>
+			<div class="footer-container">
+				<div class="footer-div1"></div>
+				<div class="footer-contacts">
+					<div class="ig-div">
+						<p>INSTAGRAM</p>
+						<a href="https://www.instagram.com/jukkarisikko/">@jukkarisikko</a>
+					</div>
+					<div class="email-div">
+						<p>CONTACT</p>
+						<a href="mailto:jukka.risikko@gmail.com">jukka.risikko@gmail.com</a>
+					</div>
+				</div>
+				<div class="footer-div3"></div>
+			</div>
+		</footer>
+		<script>
+			function openNav() {
+				document.getElementById('mySidenav').style.width = '250px';
+				document.getElementById('main').style.marginLeft = '250px';
+			}
+
+			function closeNav() {
+				document.getElementById('mySidenav').style.width = '0';
+				document.getElementById('main').style.marginLeft = '0';
+			}
+		</script>
+	</body>
+</html>
