@@ -342,6 +342,11 @@ main {
 		background-image: url(../img/details-3-blur.jpg);
 	}
 
+	.mySlides img {
+		object-fit: cover;
+		height: 350px;
+	}
+
 	/* Slideshow container */
 	.slideshow-container {
 		padding-left: 10vw;
@@ -469,6 +474,11 @@ main {
 	.fa-brands,
 	.fa-regular {
 		display: none;
+	}
+
+	.mySlides img {
+		object-fit: cover;
+		height: 350px;
 	}
 	/* Responsive nav */
 	.web-header {
@@ -749,9 +759,9 @@ main {
 	}
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) {
+@media (min-width: 1920px) {
 	.some-container {
-		gap: 5em;
+		gap: 3em;
 	}
 
 	main {
@@ -778,7 +788,7 @@ main {
 	}
 
 	.nav-container a {
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	.details-container {
@@ -803,7 +813,7 @@ main {
 	}
 
 	footer {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.footer-container {

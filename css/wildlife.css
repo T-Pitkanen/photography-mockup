@@ -368,6 +368,11 @@ main {
 		height: auto;
 	}
 
+	.mySlides img {
+		object-fit: cover;
+		height: 350px;
+	}
+
 	/* Next & previous buttons */
 	.prev,
 	.next {
@@ -497,6 +502,11 @@ main {
 		font-size: 1.5rem;
 		display: block;
 		padding: 3vw;
+	}
+
+	.mySlides img {
+		object-fit: cover;
+		height: 350px;
 	}
 
 	.sidenav {
@@ -759,9 +769,9 @@ main {
 	}
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) {
+@media (min-width: 1900px) {
 	.some-container {
-		gap: 5em;
+		gap: 3em;
 	}
 
 	main {
@@ -788,7 +798,7 @@ main {
 	}
 
 	.nav-container a {
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	.wildlife-container {
@@ -813,7 +823,7 @@ main {
 	}
 
 	footer {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.footer-container {
