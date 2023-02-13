@@ -1,6 +1,5 @@
 ﻿# Ethan's Photography
  
- https://t-pitkanen.github.io/photography-mockup/
  
  A school project from November 2022, after 3-4 months of learning.
 
