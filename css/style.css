@@ -741,7 +741,7 @@ main {
 	.info-text {
 		padding-left: 0;
 		line-height: 1.5;
-		font-size: 11px;
+		font-size: 10px;
 	}
 
 	.card-section {
@@ -803,7 +803,7 @@ main {
 		letter-spacing: 1px;
 		background-color: var(--header-footer-color);
 		padding: 2vh;
-		outline: 0.5px solid white;
+		outline: 1px solid white;
 		outline-offset: -5px;
 	}
 
