@@ -1,0 +1,19 @@
+{
+  "name": "photography-mockup",
+  "version": "1.0.0",
+  "description": "https://t-pitkanen.github.io/photography-mockup/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-Pitkanen/photography-mockup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T-Pitkanen/photography-mockup/issues"
+  },
+  "homepage": "https://github.com/T-Pitkanen/photography-mockup#readme"
+}

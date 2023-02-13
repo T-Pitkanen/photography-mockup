@@ -286,7 +286,7 @@ main {
 	letter-spacing: 1px;
 	background-color: var(--header-footer-color);
 	padding: 1.5vh;
-	outline: 0.5px solid white;
+	outline: 1px solid white;
 	outline-offset: -5px;
 }
 
@@ -334,7 +334,7 @@ main {
 	letter-spacing: 1px;
 	background-color: var(--header-footer-color);
 	padding: 1.5vh;
-	outline: 0.5px solid white;
+	outline: 1px solid white;
 	outline-offset: -5px;
 }
 
