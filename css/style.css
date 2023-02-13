@@ -727,11 +727,12 @@ main {
 	.info-section {
 		padding-top: 5vh;
 
-		height: 40vh;
+		height: 50vh;
 	}
 
 	.info-container {
 		padding: 10vw;
+		height: auto;
 	}
 
 	.p2 {
