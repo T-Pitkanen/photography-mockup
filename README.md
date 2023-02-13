@@ -1,3 +1,3 @@
-﻿# jr-photography
+﻿# ethans-photography
  
-Gallery Website Practice
+ A school project from November 2022. 
