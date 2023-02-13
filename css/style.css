@@ -520,7 +520,10 @@ main {
 	}
 
 	.info-container {
+		outline-offset: -10px;
 		padding: 8vw;
+		height: auto;
+		padding: 1.5em;
 	}
 
 	.p2 {
@@ -530,7 +533,7 @@ main {
 	.info-text {
 		padding-left: 0;
 		line-height: 1.2;
-		font-size: 12px;
+		font-size: 10px;
 	}
 
 	.card-section {
@@ -738,7 +741,7 @@ main {
 	.info-text {
 		padding-left: 0;
 		line-height: 1.2;
-		font-size: 12px;
+		font-size: 10px;
 	}
 
 	.card-section {
