@@ -196,7 +196,6 @@ main {
 	max-width: 1000px;
 	height: auto;
 	padding-left: 4vw;
-
 	align-self: center;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -741,8 +740,8 @@ main {
 
 	.info-text {
 		padding-left: 0;
-		line-height: 1.2;
-		font-size: 10px;
+		line-height: 1.5;
+		font-size: 11px;
 	}
 
 	.card-section {
